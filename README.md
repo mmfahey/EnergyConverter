@@ -11,7 +11,7 @@ Must have python installed on PC/linux and the EnergyConversions.py saved in par
 
 ## Usage
 
-'''python 
+```python 
 import EnergyConversions
 
 #converts 5 eV to wavenumbers
@@ -19,7 +19,7 @@ EnergyConversions.convert2wavenumber('eV', 5)
 
 #converts 200 nm to eV
 EnergyConversions.convert2eV('nm', 200)
-'''
+```
 
 ## Support
 Contact the author at mmfahey92@gmail.com
