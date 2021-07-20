@@ -1,27 +1,31 @@
 # Spectrochemical Energy Converter
 
 ## Description
-Android APK written in python/kivy that allows scientists to quickly and easily convert common energy units used.
+Command-line tool written in python that allows scientists to quickly and easily convert common energy units used.
 
 ## Project Status
-Published on Google Play, small bug fixes will be made and potentially an IOS version will be released in the coming months.
+This project has been expanded to be used on mobile platforms as opposed to being used as a command line tool. This project will be updated with added units that are included or added to the mobile app.
 
 ## Installation
-The live APK can be found on the Google Play store and can be installed on any android device.
-
-On Windows or Linux computers, the python package (main.py) can be run as long as the EnergyConversions.py is found in the same directory. This will generate the GUI and allow users to work with the energy conversion tools on their PCs.
-
-Building a modified APK from the python package requires Buildozer to be configured on a linux machine or VM.
+Must have python installed on PC/linux and the EnergyConversions.py saved in parent directory to use conversions.
 
 ## Usage
 
-'''python main.py'''
+'''python 
+import EnergyConversions
+
+#converts 5 eV to wavenumbers
+EnergyConversions.convert2wavenumber('eV', 5)
+
+#converts 200 nm to eV
+EnergyConversions.convert2eV('nm', 200)
+'''
 
 ## Support
 Contact the author at mmfahey92@gmail.com
 
 ## Roadmap
-Plan on releasing and IOS version by Fall 2021 and plan on continued bug fixes and update implementations as wanted or needed.
+No planned updates.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
