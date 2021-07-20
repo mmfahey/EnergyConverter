@@ -10,12 +10,13 @@ This project has been expanded to be used on mobile platforms as opposed to bein
 Must have python installed on PC/linux and the EnergyConversions.py saved in parent directory to use conversions.
 
 ## Usage
-The project can be used as a command-line tool by running
+The project can be used as a command-line tool:
+
 ```bash
 python EnergyConversions.py
 ```
 
-or the conversions can be run as standalone functions by:
+or the conversions can be run as standalone functions:
 
 ```python 
 import EnergyConversions
