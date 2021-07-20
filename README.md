@@ -1,4 +1,4 @@
-# Spectrochemical Energy Converter
+# Spectrochemical Energy Converter (Command-line prompt)
 
 ## Description
 Command-line tool written in python that allows scientists to quickly and easily convert common energy units used.
